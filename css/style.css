@@ -17,25 +17,16 @@ body {
     background-color: black;
 }
 
-div {
-    margin: 4%
-}
-
 img {
+    z-index: 2;
     width: 10vw;
 }
 
-.btn {
-    width: 11vw;
-    height: 4vh;
-}
-
-button:hover {
-    background-color: #ddd;
-    cursor: pointer;
+section {
+    z-index: 2;
 }
 
 .on {
-    filter: drop-shadow(0 0 10rem rgb(255, 191, 0))
-            drop-shadow(0 0 3rem rgba(255, 255, 0, 0.965));
+    filter: drop-shadow(0 -5rem 10rem rgb(255, 191, 0))
+            drop-shadow(0 -2rem 3.5rem rgba(255, 255, 0, 0.965));
 }
